@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -50,8 +51,8 @@ a {
 }
 
 #hero {
-    height: 400px;
-    background-color: #1f2937;
+    height: 600px;
+    background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
     justify-content: center;
@@ -88,7 +89,7 @@ p {
     padding-top: 50px;
 }
 
-h2 {
+#hero h2 {
     background-color: #3882F6;
     width: 130px;
     height: 35px;
@@ -99,4 +100,46 @@ h2 {
     border: #3882F6;
     text-align: center;
     padding-top: 1%;
+}
+
+#info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 40px 0;
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+article {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+blockquote {
+
+    font-size: 36px;
+    color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+    padding: 50px 30%;
+    height: 500px;
+    background-color: #E5E7EB;
+    margin-top: 10rem;
+
+
 }
